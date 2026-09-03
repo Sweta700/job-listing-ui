@@ -29,7 +29,7 @@ This project displays job opportunities in clean and reusable job cards with com
 
 ## 📸 Preview
 
-![Job Listing UI](./preview.jpeg)
+![Job Listing UI](./src/preview.jpeg)
 
 ## 📂 Project Structure
 
