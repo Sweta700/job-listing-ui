@@ -44,47 +44,58 @@ job-listing-ui/
 ├── package.json
 ├── vite.config.js
 └── README.md
+```
 
-⚙️ Installation & Setup
-Clone the repository
+## ⚙️ Installation & Setup
+
+### 1. Clone the repository
+
+```bash
 git clone https://github.com/your-username/job-listing-ui.git
-Go to the project directory
+```
+
+### 2. Go to the project directory
+
+```bash
 cd job-listing-ui
-Install dependencies
+```
+
+### 3. Install dependencies
+
+```bash
 npm install
-Run the development server
+```
+
+### 4. Run the development server
+
+```bash
 npm run dev
+```
 
 Open the local development URL in your browser to view the project.
 
-🎯 Learning Outcomes
+## 🎯 Learning Outcomes
 
 Through this project, I practiced:
 
-Building reusable components with React.js
-Rendering dynamic data using JavaScript
-Using props in React
-Creating responsive layouts with Tailwind CSS
-Working with arrays of objects
-Creating modern and clean user interfaces
-Managing a React project using Vite
-🔮 Future Improvements
-🔍 Search jobs by title or company
-🏷️ Filter jobs by category
-📍 Filter jobs by location
-💰 Salary range filter
-💾 Save jobs functionality
-📄 Job details page
-🔐 User authentication
-🌐 Backend integration
-👩‍💻 Author
+- Building reusable components with React.js
+- Rendering dynamic data using JavaScript
+- Using props in React
+- Creating responsive layouts with Tailwind CSS
+- Working with arrays of objects
+- Creating modern and clean user interfaces
+- Managing a React project using Vite
 
-Sweta Maurya
+## 👩‍💻 Author
+
+**Sweta Maurya**
 
 BCA Student | Aspiring Full Stack Developer
 
-💻 Skills
+### 💻 Skills
 
 Java • Spring Boot • MongoDB • React.js • JavaScript • HTML • CSS • Tailwind CSS
+
+---
 
 ⭐ If you like this project, consider giving it a star!
