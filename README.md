@@ -1,16 +1,101 @@
-# React + Vite
+# 💼 Job Listing UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive **Job Listing UI** built using **React.js** and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+This project displays job opportunities in clean and reusable job cards with company information, job title, job type, experience level, salary, location, and action buttons.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- 📋 Responsive job listing cards
+- 🏢 Company name and logo
+- 💼 Job title and job type
+- 🎯 Experience level
+- 💰 Salary per hour
+- 📍 Job location
+- 💾 Save job button
+- ⚡ Apply Now button
+- 📱 Responsive design
+- ♻️ Reusable React components
+- 🎨 Modern UI with Tailwind CSS
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- React.js
+- JavaScript
+- Tailwind CSS
+- HTML5
+- Vite
+- Git & GitHub
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Preview
+
+![Job Listing UI](./preview.png)
+
+## 📂 Project Structure
+
+```text
+job-listing-ui/
+├── public/
+├── src/
+│   ├── components/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/job-listing-ui.git
+```
+
+### 2. Go to the project directory
+
+```bash
+cd job-listing-ui
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Run the development server
+
+```bash
+npm run dev
+```
+
+Open the local development URL in your browser to view the project.
+
+## 🎯 Learning Outcomes
+
+Through this project, I practiced:
+
+- Building reusable components with React.js
+- Rendering dynamic data using JavaScript
+- Using props in React
+- Creating responsive layouts with Tailwind CSS
+- Working with arrays of objects
+- Creating modern and clean user interfaces
+- Managing a React project using Vite
+
+## 👩‍💻 Author
+
+**Sweta Maurya**
+
+BCA Student | Aspiring Full Stack Developer
+
+### 💻 Skills
+
+Java • Spring Boot • MongoDB • React.js • JavaScript • HTML • CSS • Tailwind CSS
+
+---
+
+⭐ If you like this project, consider giving it a star!
