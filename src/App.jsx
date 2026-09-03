@@ -104,13 +104,13 @@ const App = () => {
     }
   ];
 
-  console.log(jobOpenings);
 
   return (
     <div className="min-h-screen min-w-screen bg-black flex flex-wrap p-10 gap-6">
 
-      {jobOpenings.map(function (elem) {
-        return <Card companyName={elem.companyName} post={elem.post} pay={elem.pay} location={elem.location} datePosted={elem.datePosted} tag1={elem.tag1} tag2={elem.tag2} brandLogo={elem.brandLogo} />
+      {jobOpenings.map(function (elem, idx) {
+        return <div key={idx}><Card companyName={elem.companyName} post={elem.post} pay={elem.pay} location={elem.location} datePosted={elem.datePosted} tag1={elem.tag1} tag2={elem.tag2} brandLogo={elem.brandLogo} />
+        </div>
       })}
 
     </div>
